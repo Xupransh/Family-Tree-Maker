@@ -1,0 +1,89 @@
+{
+    "nodes": [
+        {
+            "id": "fooFamily1",
+            "type": "comp",
+            "contains": [
+                {
+                    "id": "bat_foo",
+                    "type": "person",
+                    "name": "bat foo"
+                },
+                {
+                    "id": "bag_foo",
+                    "type": "person",
+                    "name": "bag foo"
+                }
+            ]
+        },
+        {
+            "id": "fooFamily0",
+            "type": "comp",
+            "contains": [
+                {
+                    "id": "bay_foo",
+                    "type": "person",
+                    "name": "bay foo"
+                },
+                {
+                    "id" : "bay_bae_foo",
+                    "type" : "person",
+                    "name" : "bay bae foo"
+                }
+            ]
+        },
+        {
+            "id": "faaFamily1",
+            "type": "comp",
+            "contains": [
+                {
+                    "id": "fee_faa",
+                    "type": "person",
+                    "name": "fee faa"
+                },
+                {
+                    "id" : "fii_faa",
+                    "type" : "person",
+                    "name" : "fii faa"
+                }
+            ]
+        },
+        {
+            "id": "bar_foo",
+            "type": "person",
+            "name": "bar foo"
+        },
+        {
+            "id": "baz_foo",
+            "type": "person",
+            "name": "baz foo"
+        }
+    ],
+    "edges": [
+        {
+            "id": "child_bar",
+            "label": "son",
+            "sourceID": "fooFamily1",
+            "targetID": "bar_foo"
+        },
+        {
+            "id": "child_baz",
+            "label": "son",
+            "sourceID": "fooFamily1",
+            "targetID": "baz_foo"
+        },
+        {
+            "id" : "child_bay_bae",
+            "label" : "son",
+            "sourceID" : "fooFamily0",
+            "targetID" : "bat_foo"
+        },
+		{
+			"id" : "child_bag",
+			"label" : "daughter",
+			"sourceID" : "faaFamily1",
+			"targetID" : "bag_foo"
+		}
+
+    ]
+}

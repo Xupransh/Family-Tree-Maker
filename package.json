@@ -1,0 +1,33 @@
+{
+  "name": "family-tree",
+  "version": "1.0.0",
+  "description": "Just a family tree",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf lib artifacts",
+    "build": "tsc -p ./lib.tsconfig.json && webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xupransh/Family-Tree.git"
+  },
+  "author": "Jayanti Murty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xupransh/Family-Tree/issues"
+  },
+  "homepage": "https://github.com/Xupransh/Family-Tree#readme",
+  "dependencies": {
+    "@types/node": "^12.7.2",
+    "reflect-metadata": "^0.1.13",
+    "sprotty-elk": "^0.6.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webworker-threads": "^0.7.17"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.6"
+  }
+}
