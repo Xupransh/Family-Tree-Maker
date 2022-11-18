@@ -28,6 +28,6 @@
     "webworker-threads": "^0.7.17"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   }
 }
