@@ -22,12 +22,12 @@
     "@types/node": "^12.7.2",
     "reflect-metadata": "^0.1.13",
     "sprotty-elk": "^0.6.0",
-    "ts-loader": "^6.0.4",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.5.3",
-    "webpack": "^4.39.2",
+    "webpack": "^5.75.0",
     "webworker-threads": "^0.7.17"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^5.0.1"
   }
 }
